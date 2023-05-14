@@ -1,0 +1,21 @@
+console.log('----------------------------------------------------------')
+console.log("------------------[Day 1 exercises]-----------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+
+console.log("Welcome to 30DaysOfJavaScript")
+let muellime = 'Muellime'
+let deyisen_2 = 'Lab bali yazinda :)'
+let deyisen_3 = 'Yazi'
+let deyisen_4 = 'Burda sizin reklam ola biler'
+console.log(muellime,deyisen_2,deyisen_3,deyisen_4)
+let ad ='Hecaga'
+let soyad = 'Aghayev'
+let age = 'demirem'
+let country = 'AZERBAIJAN'
+console.log(ad)
+console.log(soyad)
+console.log(age)
+console.log(country)
+//tek sirada cap
+console.log(ad,soyad,age,country)

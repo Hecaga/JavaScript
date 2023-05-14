@@ -1,0 +1,49 @@
+console.log('                                                          ')
+console.log('----------------------------------------------------------')
+console.log("--------------[Day 2 exercises level 1]-------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+
+let deyer =  '30 Days Of JavaScript';
+console.log(deyer)
+let uz= deyer.length
+console.log(uz)
+//toUpperCase
+console.log(deyer.toUpperCase())
+//toLowercase
+console.log(deyer.toLowerCase())
+console.log(deyer.substring(0,3))
+console.log(deyer.includes('Script'))
+console.log(deyer.split())
+console.log(deyer.replace('JavaScript','Pythons'))
+console.log(deyer.charAt(15))
+console.log(deyer.charCodeAt('J'))
+console.log(deyer.indexOf('a'))
+
+let cumle = 'You cannot end a sentence with because because because is a conjunction'
+console.log(cumle.indexOf('because'))
+console.log(deyer.lastIndexOf('because'))
+console.log(deyer.trim())
+console.log(cumle.startsWith('You'))
+console.log(cumle.endsWith('conjunction'))
+console.log(deyer.match('a'))
+console.log(deyer.repeat(2))
+
+
+
+
+console.log('                                                          ')
+console.log('----------------------------------------------------------')
+console.log("--------------[Day 2 exercises level 2]-------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+
+
+console.log('10' == 10)
+let reqem = parseFloat('9.8')
+console.log(reqem == 10)
+let cumle2 ='I hope this course is not full of jargon'
+console.log(cumle2.includes('jargon'))
+console.log(Math.random()*10)
+console.log((Math.random()*100)+50)
+console.log(Math.random()*255)

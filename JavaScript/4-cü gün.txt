@@ -1,0 +1,386 @@
+console.log('                                                          ')
+console.log('----------------------------------------------------------')
+console.log("--------------[Day 4 exercises level 1]-------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+
+//Mesele 1
+const yas04 = 24
+if(yas04>18){
+    console.log('Avtomobil idare ede bilersiniz')
+}
+else{
+    console.log('18 yasiniz yoxdur')
+}
+
+//Yas muqayisesi
+const yas042 = 45
+const yas043 = 70
+if(yas042>yas043){
+    console.log('1-ci sexs qocadir')
+}
+else if(yas042 == yas043){
+    console.log('Eyni yasdasiz')
+}
+else{
+    console.log('2-ci sexs qocadir')
+}
+
+//2 ededin muqayisesi
+let a4=4
+let b4=32
+if (a4>b4){
+    console.log('a boyukdur')
+}
+else if (a4 == b4){
+    console.log('a ededi b-ye beraberdir')
+}
+else{
+    console.log('b boyukdur')
+}
+
+//cut ededin tapilmasi 1ci hal
+let a42=68
+if(a42%2==0){
+    console.log('a ededi cutdur')
+}
+else{
+    console.log('a ededi tekdir')
+}
+
+//cut ededin tapilmsi 2ci hal
+
+let a43 =79
+if (a43%2==0){
+    console.log('a ededi tekdir')
+}
+else{console.log('a ededi tekdri')}
+
+console.log('                                                          ')
+console.log('----------------------------------------------------------')
+console.log("--------------[Day 4 exercises level 2]-------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+ //Qiymete aid mesele
+
+ let qiymet4=90
+ 
+ if (qiymet4<100 && qiymet4>=90){
+    console.log('Qiymetiniz A-dir')
+ }
+ else if(qiymet4<=89 && qiymet4>=70){
+    console.log('Qiymetiniz B-dir')
+ }
+ else if(qiymet4<=69 && qiymet4>=60){
+    console.log('Qiymetiniz C-dir')
+ }
+ else if(qiymet4<=59 && qiymet4>=50){
+    console.log('Qiymetiniz D-dir')
+ }
+ else if(qiymet4<=49 && qiymet4>=0){
+    console.log('Qiymetiniz F-dir')
+ }
+ else {
+    console.log('0-100 bal arasinda qiymet daxil edin')
+ }
+
+//ardi var yazarsan
+
+console.log('                                                          ')
+console.log('----------------------------------------------------------')
+console.log("--------------[Day 4 exercises level 1]-------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+
+//Bos massiv
+let bal=[];
+let basqaBal=[4,233,2,23,44]
+console.log(basqaBal.length)
+
+//1ci element 
+console.log(basqaBal[0])
+
+//orta element
+console.log(basqaBal[2])
+
+//Son element
+console.log(basqaBal[4])
+
+//Qarisiq ve uzunluq
+let qarisiq=['bu string', 'olsun','bir',7,78,45,93]
+console.log(qarisiq.length)
+let itCompanies=['Amazon','Microsoft','IBM']
+console.log(itCompanies)
+console.log(qarisiq[0])
+console.log(qarisiq[3])
+console.log(qarisiq[6])
+
+//Forla cap
+console.log('Forla cap')
+for(let i=0;i<qarisiq.length;i++){
+    console.log(qarisiq[i])
+}
+
+//Forla uppetCase
+for(let h=0;h<itCompanies.length;h++){
+    console.log(itCompanies[h].toUpperCase())
+}
+
+//includes Sirket adi tapilmasi
+console.log(itCompanies.includes('Apple'))
+
+//sort texnikasi
+let massiv=[3,23,4,1,42,4]
+console.log(massiv.sort())
+
+//Revers elemek
+
+console.log(itCompanies.reverse())
+//Kesmek
+let magaza=['Apple','Meta','Akif dayinin marketi','Mehle market','Araz market']
+console.log(magaza.slice(2,5))
+console.log(magaza.shift())
+console.log(magaza.pop(3))
+
+console.log('                                                          ')
+console.log('----------------------------------------------------------')
+console.log("--------------[Day 4 exercises level 2]-------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+
+//Siyahi elave etmek
+let market=['sut','Coffee','Cay','Bal']
+market.unshift("Et");
+console.log(market.un)
+
+//olkenin tapilmasi
+let olkeler4=['Azerbaycan','Turkiye','Israel']
+if(olkeler4.includes('Ethiopia')){
+    console.log('Bu olke siyahida var')
+}
+else{
+    console.log('ETHIOPIA')
+}
+
+//Sass axtarmaq
+let ad04=['Sass','Console','Input','Let']
+if(ad04.includes('Sass')){
+    console.log('Sass is a CSS preprocessor')
+}
+else{
+    console.log('Bu soz yoxudr')
+}
+
+//2 massivin birlesmesi
+let birinci=['salam','necesen','neynirsen']
+let ikinci =[12,3,21,43,2]
+let qarisiq04 = birinci + "and" + ikinci
+console.log(qarisiq04)
+
+console.log('                                                          ')
+console.log('----------------------------------------------------------')
+console.log("--------------[Day 4 exercises level 3]-------------------")
+console.log('----------------------------------------------------------')
+console.log('                                                          ')
+//Orta olkeni tapmaq
+const countries = [
+    'Afghanistan',
+    'Albania',
+    'Algeria',
+    'Andorra',
+    'Angola',
+    'Antigua and Barbuda',
+    'Argentina',
+    'Australia',
+    'Austria',
+    'Azerbaijan',
+    'Bahamas',
+    'Bahrain',
+    'Bangladesh',
+    'Barbados',
+    'Belarus',
+    'Belgium',
+    'Belize',
+    'Benin',
+    'Bhutan',
+    'Bolivia',
+    'Bosnia and Herzegovina',
+    'Botswana',
+    'Brazil',
+    'Brunei',
+    'Bulgaria',
+    'Burkina Faso',
+    'Burundi',
+    'Cambodia',
+    'Cameroon',
+    'Canada',
+    'Cape Verde',
+    'Central African Republic',
+    'Chad',
+    'Chile',
+    'China',
+    'Colombi',
+    'Comoros',
+    'Congo (Brazzaville)',
+    'Congo',
+    'Costa Rica',
+    "Cote d'Ivoire",
+    'Croatia',
+    'Cuba',
+    'Cyprus',
+    'Czech Republic',
+    'Denmark',
+    'Djibouti',
+    'Dominica',
+    'Dominican Republic',
+    'East Timor (Timor Timur)',
+    'Ecuador',
+    'Egypt',
+    'El Salvador',
+    'Equatorial Guinea',
+    'Eritrea',
+    'Estonia',
+    'Ethiopia',
+    'Fiji',
+    'Finland',
+    'France',
+    'Gabon',
+    'Gambia, The',
+    'Georgia',
+    'Germany',
+    'Ghana',
+    'Greece',
+    'Grenada',
+    'Guatemala',
+    'Guinea',
+    'Guinea-Bissau',
+    'Guyana',
+    'Haiti',
+    'Honduras',
+    'Hungary',
+    'Iceland',
+    'India',
+    'Indonesia',
+    'Iran',
+    'Iraq',
+    'Ireland',
+    'Israel',
+    'Italy',
+    'Jamaica',
+    'Japan',
+    'Jordan',
+    'Kazakhstan',
+    'Kenya',
+    'Kiribati',
+    'Korea, North',
+    'Korea, South',
+    'Kuwait',
+    'Kyrgyzstan',
+    'Laos',
+    'Latvia',
+    'Lebanon',
+    'Lesotho',
+    'Liberia',
+    'Libya',
+    'Liechtenstein',
+    'Lithuania',
+    'Luxembourg',
+    'Macedonia',
+    'Madagascar',
+    'Malawi',
+    'Malaysia',
+    'Maldives',
+    'Mali',
+    'Malta',
+    'Marshall Islands',
+    'Mauritania',
+    'Mauritius',
+    'Mexico',
+    'Micronesia',
+    'Moldova',
+    'Monaco',
+    'Mongolia',
+    'Morocco',
+    'Mozambique',
+    'Myanmar',
+    'Namibia',
+    'Nauru',
+    'Nepal',
+    'Netherlands',
+    'New Zealand',
+    'Nicaragua',
+    'Niger',
+    'Nigeria',
+    'Norway',
+    'Oman',
+    'Pakistan',
+    'Palau',
+    'Panama',
+    'Papua New Guinea',
+    'Paraguay',
+    'Peru',
+    'Philippines',
+    'Poland',
+    'Portugal',
+    'Qatar',
+    'Romania',
+    'Russia',
+    'Rwanda',
+    'Saint Kitts and Nevis',
+    'Saint Lucia',
+    'Saint Vincent',
+    'Samoa',
+    'San Marino',
+    'Sao Tome and Principe',
+    'Saudi Arabia',
+    'Senegal',
+    'Serbia and Montenegro',
+    'Seychelles',
+    'Sierra Leone',
+    'Singapore',
+    'Slovakia',
+    'Slovenia',
+    'Solomon Islands',
+    'Somalia',
+    'South Africa',
+    'Spain',
+    'Sri Lanka',
+    'Sudan',
+    'Suriname',
+    'Swaziland',
+    'Sweden',
+    'Switzerland',
+    'Syria',
+    'Taiwan',
+    'Tajikistan',
+    'Tanzania',
+    'Thailand',
+    'Togo',
+    'Tonga',
+    'Trinidad and Tobago',
+    'Tunisia',
+    'Turkey',
+    'Turkmenistan',
+    'Tuvalu',
+    'Uganda',
+    'Ukraine',
+    'United Arab Emirates',
+    'United Kingdom',
+    'United States',
+    'Uruguay',
+    'Uzbekistan',
+    'Vanuatu',
+    'Vatican City',
+    'Venezuela',
+    'Vietnam',
+    'Yemen',
+    'Zambia',
+    'Zimbabwe'
+  ]
+  console.log(countries[(countries.length)/2])
+
+  //Hisseye ayirmaq
+let olkeler_siyahi = ['USA', 'Canada', 'Mexico', 'Brazil', 'Argentina', 'Chile', 'Peru'];
+let hisse = Math.ceil(olkeler_siyahi.length / 2);
+let birinci_hisse = olkeler_siyahi.slice(0, hisse); 
+let ikinci_hisse = olkeler_siyahi.slice(hisse); 
